@@ -14,9 +14,14 @@ GET http://localhost:3000/categories/
 
 
 # Steps to run the project:
-1.Start the app using `node app.js`.
-2.Using postman, insert some sample categories using POST request http://localhost:3000/categories/insertMany
-3.Using postman, insert some sample products using POST request http://localhost:3000/products/insertMany
-4.For the solution for the given problem, GET http://localhost:3000/categories/
+1.Install all dependencies using `npm i`.
+2.Start the app using `node app.js`.
+3.Using postman, insert some sample categories using POST request http://localhost:3000/categories/insertMany
+4.Using postman, insert some sample products using POST request http://localhost:3000/products/insertMany
+5.For the solution for the given problem, GET http://localhost:3000/categories/
 
+3rd party plugins used : 3
+1.dotenv
+2.express
+3.mongoose
 -----------------END------------------------
